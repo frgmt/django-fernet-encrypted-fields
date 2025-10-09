@@ -28,9 +28,9 @@ jobs:
       matrix:
         python_version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
         django_version: ["4.2", "5.2"]
-#        exclude:
-#          - python_version: 3.12
-#            django_version: 3.2
+        exclude:
+          - python_version: 3.13
+            django_version: 4.2
     runs-on: ubuntu-latest
 
     steps:
