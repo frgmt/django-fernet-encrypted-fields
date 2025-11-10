@@ -12,7 +12,7 @@ setup(
     packages=["encrypted_fields"],
     version="0.3.0",
     install_requires=[
-        "Django>=3.2",
+        "Django>=4.2",
         "cryptography>=35.0.0",
     ],
 )
