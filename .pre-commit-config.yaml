@@ -8,7 +8,7 @@ exclude: |
   )$
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace # Trims trailing whitespace.
         args: [--markdown-linebreak-ext=md]
@@ -43,7 +43,7 @@ repos:
         types_or: [yaml, markdown]
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.20.0
+    rev: v3.21.0
     hooks:
       - id: pyupgrade
         name: pyupgrade
